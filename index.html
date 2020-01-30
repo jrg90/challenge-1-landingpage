@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Insure landing page</title>
 
@@ -13,34 +15,150 @@
     <style>
         body {
             margin: 0 auto;
+
+
+        }
+
+        body p {
+            font-family: 'Karla', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        #page-content {
+            width: 85vw;
+            margin: 0 auto;
+        }
+
+
+        body h1 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 400;
+            font-size: 55px;
+            line-height: 1;
+            margin-bottom: 0px;
         }
 
         #navigation {
-            width: 100vw;
+            width: 100%;
             height: 20px;
-            padding: 30px;
-            background-color: aqua;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
-        
+
+        #navigation a {
+            text-decoration: none;
+            font-family: 'Karla', sans-serif;
+            color: hsl(273, 4%, 51%);
+        }
+
         #logo {
             width: 49%;
             float: left;
-            border: 1px solid black;
-        }
-        
-        #nav-links {
-            width: 50%;
-            float: right;
-            border: 1px solid black;
-            margin-right: -100px;
-        }
-        
-        
-        #nav-links a {
-            
-            margin-right: 10px;
         }
 
+        #nav-links {
+
+            float: right;
+            padding-right: 20px;
+        }
+
+
+        #nav-links a {
+
+            margin-right: 15px;
+        }
+
+
+        #row1 {
+            margin-left: -7.5vw;
+            width: 100vw;
+            background-color: hsl(256, 26%, 20%);
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        #row1-1 {
+            width: 85vw;
+            color: white;
+            margin: 0 auto;
+
+        }
+
+        #row1-2 {
+            width: 45%;
+        }
+
+        #row1-1 h1 {}
+
+
+        #row-2 {
+            margin-bottom: 50px;
+        }
+
+
+        #row2-1 {
+            width: 250px;
+            float: left;
+            padding: 15px 5px 15px 0px;
+            margin-right: 5%;
+        }
+
+        #row2-2 {
+            width: 250px;
+            float: left;
+            padding: 15px 0px 15px 0px;
+            margin-right: 5%;
+        }
+
+        #row2-3 {
+            width: 250px;
+            float: left;
+            padding: 15px 0px 15px 0px;
+        }
+
+
+        #row3 {
+            float: left;
+            background-color: hsl(256, 26%, 20%);
+            margin: 0 auto;
+            padding: 50px 10px 50px 10px;
+            width: 85vw;
+        }
+        
+        #row3-1 {
+            width: 45%;
+            float: left;
+            color: white;
+            padding-left: 50px;
+        }
+        
+        
+        #row3-1 h1 {
+            font-size: 40px;
+        }
+        
+        
+        #row3-2 {
+            float: right;
+            width: 20%;
+            margin-top: 50px;
+        }
+
+
+        #row4 {
+            float: left;
+        }
+
+
+
+        #row5 {
+            float: left;
+        }
+
+        .attribution {
+            float: left;
+        }
 
 
 
@@ -81,105 +199,114 @@
 
 <body>
 
-    <div id="navigation">
+    <div id="page-content">
 
-        <div id="logo"><img src="images/logo.svg"></div>
+        <div id="navigation">
 
-        <div id="nav-links"> 
-            <a href="">How we work</a>
-            <a href="">Blog</a>
-            <a href="">Account</a>
-            <button id="nav-button">View plans</button></div>
+            <div id="logo"><img src="images/logo.svg"></div>
+
+            <div id="nav-links">
+                <a href="">HOW WE WORK</a>
+                <a href="">BLOG</a>
+                <a href="">ACCOUNT</a>
+                <button id="nav-button">View plans</button></div>
 
 
-    </div>
-
-    <div id="row1">
-
-        <div id="row1-1">
-            <h1>Humanizing your insurance.</h1>
-
-            <p> Get your life insurance coverage easier and faster. We blend our expertise
-                and technology to help you find the plan that’s right for you. Ensure you
-                and your loved ones are protected.</p>
-
-            <button id="button">View plans</button>
-        </div>
-    </div>
-
-    <div id="row2">
-
-        <h1> We’re different</h1>
-
-        <div id="row2-1">
-
-            <h2>Snappy Process</h2>
-
-            Our application process can be completed in minutes, not hours. Don’t get
-            stuck filling in tedious forms.
         </div>
 
-        <div id="row2-2">
+        <div id="row1">
 
-            <h2> Affordable Prices</h2>
+            <div id="row1-1">
+                <div id="row1-2">
+                    <h1>Humanizing your insurance.</h1>
 
-            We don’t want you worrying about high monthly costs. Our prices may be low,
-            but we still offer the best coverage possible.
+                    <p> Get your life insurance coverage easier and faster. We blend our expertise
+                        and technology to help you find the plan that’s right for you. Ensure you
+                        and your loved ones are protected.</p>
+
+                    <button id="button">View plans</button>
+                </div>
+            </div>
         </div>
 
-        <div id="row2-3">
+        <div id="row2">
 
-            <h2> People First</h2>
+            <h1> We’re different</h1>
 
-            Our plans aren’t full of conditions and clauses to prevent payouts. We make
-            sure you’re covered when you need it.
+            <div id="row2-1">
+
+                <h2>Snappy Process</h2>
+
+                Our application process can be completed in minutes, not hours. Don’t get
+                stuck filling in tedious forms.
+            </div>
+
+            <div id="row2-2">
+
+                <h2> Affordable Prices</h2>
+
+                We don’t want you worrying about high monthly costs. Our prices may be low,
+                but we still offer the best coverage possible.
+            </div>
+
+            <div id="row2-3">
+
+                <h2> People First</h2>
+
+                Our plans aren’t full of conditions and clauses to prevent payouts. We make
+                sure you’re covered when you need it.
+            </div>
+
         </div>
 
-    </div>
+        <div id="row3">
 
-    <div id="row3">
+            <div id="row3-1">
 
-        <h1>Find out more about how we work</h1>
+                <h1>Find out more about how we work</h1>
+            </div>
 
-        <button id="button">How we work</button>
+            <div id="row3-2"> <button id="button">How we work</button></div>
 
-    </div>
-    <div id="row4"></div>
+        </div>
+        <div id="row4"></div>
 
-    <div id="row5">
-        <div id="row4-1">Our company
+        <div id="row5">
+            <div id="row4-1">Our company
 
-            How we work
-            Why Insure?
-            View plans
-            Reviews
+                How we work
+                Why Insure?
+                View plans
+                Reviews
+            </div>
+
+            <div id="row4-2"> Help me
+
+                FAQ
+                Terms of use
+                Privacy policy
+                Cookies
+            </div>
+
+            <div id="row4-3"> Contact
+
+                Sales
+                Support
+                Live chat
+            </div>
+            <div id="row4-4">Others
+
+                Careers
+                Press
+                Licenses
+            </div>
+
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Your Name Here</a>.
         </div>
 
-        <div id="row4-2"> Help me
-
-            FAQ
-            Terms of use
-            Privacy policy
-            Cookies
-        </div>
-
-        <div id="row4-3"> Contact
-
-            Sales
-            Support
-            Live chat
-        </div>
-        <div id="row4-4">Others
-
-            Careers
-            Press
-            Licenses
-        </div>
-
-    </div>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
     </div>
 </body>
 
