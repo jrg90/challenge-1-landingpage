@@ -1,85 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Insure landing page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        #navigation {
+            width: 100vw;
+            height: 20px;
+            padding: 30px;
+            background-color: aqua;
+        }
+        
+        #logo {
+            width: 49%;
+            float: left;
+            border: 1px solid black;
+        }
+        
+        #nav-links {
+            width: 50%;
+            float: right;
+            border: 1px solid black;
+            margin-right: -100px;
+        }
+        
+        
+        #nav-links a {
+            
+            margin-right: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
+
 <body>
 
-  How we work
-  Blog
-  Account
-  View plans
+    <div id="navigation">
 
-  Humanizing your insurance.
+        <div id="logo"><img src="images/logo.svg"></div>
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
+        <div id="nav-links"> 
+            <a href="">How we work</a>
+            <a href="">Blog</a>
+            <a href="">Account</a>
+            <button id="nav-button">View plans</button></div>
 
-  View plans
 
-  We’re different
+    </div>
 
-  Snappy Process
+    <div id="row1">
 
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
+        <div id="row1-1">
+            <h1>Humanizing your insurance.</h1>
 
-  Affordable Prices
+            <p> Get your life insurance coverage easier and faster. We blend our expertise
+                and technology to help you find the plan that’s right for you. Ensure you
+                and your loved ones are protected.</p>
 
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
+            <button id="button">View plans</button>
+        </div>
+    </div>
 
-  People First
+    <div id="row2">
 
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
+        <h1> We’re different</h1>
 
-  Find out more about how we work
+        <div id="row2-1">
 
-  How we work
+            <h2>Snappy Process</h2>
 
-  Our company
+            Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.
+        </div>
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+        <div id="row2-2">
 
-  Help me
+            <h2> Affordable Prices</h2>
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
+            We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.
+        </div>
 
-  Contact
+        <div id="row2-3">
 
-  Sales
-  Support
-  Live chat
+            <h2> People First</h2>
 
-  Others
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.
+        </div>
 
-  Careers
-  Press
-  Licenses
+    </div>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div id="row3">
+
+        <h1>Find out more about how we work</h1>
+
+        <button id="button">How we work</button>
+
+    </div>
+    <div id="row4"></div>
+
+    <div id="row5">
+        <div id="row4-1">Our company
+
+            How we work
+            Why Insure?
+            View plans
+            Reviews
+        </div>
+
+        <div id="row4-2"> Help me
+
+            FAQ
+            Terms of use
+            Privacy policy
+            Cookies
+        </div>
+
+        <div id="row4-3"> Contact
+
+            Sales
+            Support
+            Live chat
+        </div>
+        <div id="row4-4">Others
+
+            Careers
+            Press
+            Licenses
+        </div>
+
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
 </body>
+
 </html>
